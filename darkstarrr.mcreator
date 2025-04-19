@@ -25,6 +25,19 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "Demilsoninalabigmac",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demilsoninalabigmac",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/procedures/DemilsoninalabigmacProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
