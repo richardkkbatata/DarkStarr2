@@ -25,6 +25,19 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "Jogse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jogse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/procedures/JogseProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
