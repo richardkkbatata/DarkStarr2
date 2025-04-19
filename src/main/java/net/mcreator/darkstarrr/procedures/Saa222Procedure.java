@@ -1,8 +1,6 @@
 package net.mcreator.darkstarrr.procedures;
 
-import net.neoforged.bus.api.Event;
-
-public class DemilsoninalabigmacProcedure {
+public class Saa222Procedure {
 	public static void execute() {
 	}
 }

@@ -14,14 +14,14 @@
       }
     },
     {
-      "name": "Demilsoninalabigmac",
+      "name": "Saa222",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demilsoninalabigmac",
+      "registry_name": "saa_222",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/darkstarrr/procedures/DemilsoninalabigmacProcedure.java"
+          "src/main/java/net/mcreator/darkstarrr/procedures/Saa222Procedure.java"
         ],
         "dependencies": []
       }
