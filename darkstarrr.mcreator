@@ -12,6 +12,19 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "Pintoss",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pintoss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/procedures/PintossProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
