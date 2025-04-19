@@ -1,0 +1,44 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ss",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/procedures/SsProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "darkstarrr",
+    "modName": "DarkStarrr",
+    "version": "1.0.0",
+    "author": "richa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.darkstarrr"
+  },
+  "mcreatorVersion": 202400452410
+}
