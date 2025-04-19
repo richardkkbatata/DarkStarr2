@@ -14,14 +14,14 @@
       }
     },
     {
-      "name": "Demilsoninalabigmac",
+      "name": "Jogse",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demilsoninalabigmac",
+      "registry_name": "jogse",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/darkstarrr/procedures/DemilsoninalabigmacProcedure.java"
+          "src/main/java/net/mcreator/darkstarrr/procedures/JogseProcedure.java"
         ],
         "dependencies": []
       }
