@@ -1,45 +1,5 @@
 {
-  "mod_elements": [
-    {
-      "name": "Ss",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ss",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/darkstarrr/procedures/SsProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
-      "name": "Saa222",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "saa_222",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/darkstarrr/procedures/Saa222Procedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
-      "name": "Jogse",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jogse",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/darkstarrr/procedures/JogseProcedure.java"
-        ],
-        "dependencies": []
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
