@@ -18,6 +18,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.darkstarrr.init.DarkstarrrModTabs;
+import net.mcreator.darkstarrr.init.DarkstarrrModItems;
+import net.mcreator.darkstarrr.init.DarkstarrrModBlocks;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
 import java.util.List;
@@ -35,6 +39,12 @@ public class DarkstarrrMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		DarkstarrrModBlocks.REGISTRY.register(modEventBus);
+
+		DarkstarrrModItems.REGISTRY.register(modEventBus);
+
+		DarkstarrrModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
