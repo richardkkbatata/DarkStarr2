@@ -3,7 +3,7 @@
     {
       "name": "GreenDimension",
       "type": "dimension",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "green_dimension",
       "metadata": {
