@@ -427,10 +427,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:grass_block",
-                            "Properties": {
-                              "snowy": "false"
-                            }
+                            "Name": "minecraft:blackstone"
                           }
                         }
                       ]

@@ -31,8 +31,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/darkstarrr/worldgen/configured_feature/dark_biome_tree.json",
-          "src/main/resources/data/darkstarrr/worldgen/biome/dark_biome.json",
-          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_biome_tree.json"
+          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_biome_tree.json",
+          "src/main/resources/data/darkstarrr/worldgen/biome/dark_biome.json"
         ]
       }
     },
