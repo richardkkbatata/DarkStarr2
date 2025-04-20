@@ -10,6 +10,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.darkstarrr.block.GreenDimensionPortalBlock;
+import net.mcreator.darkstarrr.block.DarkstaroakBlock;
 import net.mcreator.darkstarrr.block.DarkOreBlock;
 import net.mcreator.darkstarrr.block.DarkGrassundergroundBlock;
 import net.mcreator.darkstarrr.block.DarkGrassBlock;
@@ -21,6 +22,7 @@ public class DarkstarrrModBlocks {
 	public static final DeferredBlock<Block> DARK_ORE = REGISTRY.register("dark_ore", DarkOreBlock::new);
 	public static final DeferredBlock<Block> DARK_GRASSUNDERGROUND = REGISTRY.register("dark_grassunderground", DarkGrassundergroundBlock::new);
 	public static final DeferredBlock<Block> DARK_GRASS = REGISTRY.register("dark_grass", DarkGrassBlock::new);
+	public static final DeferredBlock<Block> DARKSTAROAK = REGISTRY.register("darkstaroak", DarkstaroakBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

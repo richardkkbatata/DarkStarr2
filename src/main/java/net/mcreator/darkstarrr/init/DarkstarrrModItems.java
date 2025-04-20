@@ -21,6 +21,7 @@ public class DarkstarrrModItems {
 	public static final DeferredItem<Item> DARK_ORE = block(DarkstarrrModBlocks.DARK_ORE);
 	public static final DeferredItem<Item> DARK_GRASSUNDERGROUND = block(DarkstarrrModBlocks.DARK_GRASSUNDERGROUND);
 	public static final DeferredItem<Item> DARK_GRASS = block(DarkstarrrModBlocks.DARK_GRASS);
+	public static final DeferredItem<Item> DARKSTAROAK = block(DarkstarrrModBlocks.DARKSTAROAK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

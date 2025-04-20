@@ -28,6 +28,7 @@ public class DarkstarrrModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DarkstarrrModBlocks.DARK_GRASSUNDERGROUND.get().asItem());
 			tabData.accept(DarkstarrrModBlocks.DARK_GRASS.get().asItem());
+			tabData.accept(DarkstarrrModBlocks.DARKSTAROAK.get().asItem());
 		}
 	}
 }
