@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "darkstarrr:block/grassunderground",
+    "top": "darkstarrr:block/grassunderground",
+    "side": "darkstarrr:block/grassunderground",
+    "overlay": "darkstarrr:block/grassunderground",
+    "particle": "darkstarrr:block/grassunderground"
+  },
+  "render_type": "cutout_mipped"
+}

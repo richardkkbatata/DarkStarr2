@@ -417,10 +417,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:grass_block",
-                              "Properties": {
-                                "snowy": "false"
-                              }
+                              "Name": "darkstarrr:dark_grass"
                             }
                           }
                         },
@@ -445,7 +442,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:dirt"
+                        "Name": "darkstarrr:dark_grassunderground"
                       }
                     }
                   }
