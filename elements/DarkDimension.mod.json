@@ -49,11 +49,11 @@
       "value": "Blocks.CONCRETE#15"
     },
     "portalParticles": {
-      "value": "INFESTED"
+      "value": "FALLING_OBSIDIAN_TEAR"
     },
     "portalLuminance": 1,
     "portalSound": {
-      "value": "CUSTOM:horrorambient"
+      "value": "CUSTOM:musichorror"
     },
     "enableIgniter": true,
     "igniterName": "pacto sombrio",

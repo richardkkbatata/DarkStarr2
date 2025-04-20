@@ -49,7 +49,7 @@
       "value": "Blocks.CONCRETE#13"
     },
     "portalParticles": {
-      "value": "SLIME"
+      "value": "FALLING_SPORE_BLOSSOM"
     },
     "portalLuminance": 2,
     "portalSound": {
