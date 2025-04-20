@@ -1,0 +1,18 @@
+{
+  "musichorror": {
+    "sounds": [
+      {
+        "name": "darkstarrr:silent-hill-3-ost-never-forgive-me_-never-forget-me-__r2ozekbg20_",
+        "stream": true
+      }
+    ]
+  },
+  "horrorambient": {
+    "sounds": [
+      {
+        "name": "darkstarrr:youtube-_gx9elh0bwe0_",
+        "stream": false
+      }
+    ]
+  }
+}

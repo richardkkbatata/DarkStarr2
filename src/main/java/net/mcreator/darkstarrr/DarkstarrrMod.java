@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.darkstarrr.init.DarkstarrrModTabs;
+import net.mcreator.darkstarrr.init.DarkstarrrModSounds;
 import net.mcreator.darkstarrr.init.DarkstarrrModItems;
 import net.mcreator.darkstarrr.init.DarkstarrrModBlocks;
 
@@ -39,7 +40,7 @@ public class DarkstarrrMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
+		DarkstarrrModSounds.REGISTRY.register(modEventBus);
 		DarkstarrrModBlocks.REGISTRY.register(modEventBus);
 
 		DarkstarrrModItems.REGISTRY.register(modEventBus);

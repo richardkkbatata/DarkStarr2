@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Ss",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ss",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/darkstarrr/procedures/SsProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
       "name": "GreenDimension",
       "type": "dimension",
       "compiles": true,
@@ -34,10 +21,41 @@
           "src/main/java/net/mcreator/darkstarrr/block/GreenDimensionPortalBlock.java"
         ]
       }
+    },
+    {
+      "name": "DarkBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/darkstarrr/worldgen/configured_feature/dark_biome_tree.json",
+          "src/main/resources/data/darkstarrr/worldgen/biome/dark_biome.json",
+          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_biome_tree.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "musichorror",
+      "files": [
+        "silent-hill-3-ost-never-forgive-me_-never-forget-me-__r2ozekbg20_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "horrorambient",
+      "files": [
+        "youtube-_gx9elh0bwe0_"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.BLACKSTONE"
@@ -46,7 +64,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.darkstarrr.green_dimension": "acendedor de beck"
+      "subtitles.horrorambient": "",
+      "subtitles.musichorror": ""
     }
   },
   "foldersRoot": {
