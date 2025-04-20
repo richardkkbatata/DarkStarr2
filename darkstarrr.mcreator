@@ -8,17 +8,17 @@
       "registry_name": "green_dimension",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/models/item/green_dimension.json",
-          "src/main/resources/assets/darkstarrr/models/block/green_dimension_portal_ew.json",
-          "src/main/resources/data/darkstarrr/dimension/green_dimension.json",
-          "src/main/resources/assets/darkstarrr/blockstates/green_dimension_portal.json",
           "src/main/java/net/mcreator/darkstarrr/world/dimension/GreenDimensionDimension.java",
-          "src/main/java/net/mcreator/darkstarrr/item/GreenDimensionItem.java",
-          "src/main/java/net/mcreator/darkstarrr/world/teleporter/GreenDimensionTeleporter.java",
-          "src/main/java/net/mcreator/darkstarrr/block/GreenDimensionPortalBlock.java",
-          "src/main/resources/data/darkstarrr/dimension_type/green_dimension.json",
+          "src/main/resources/assets/darkstarrr/blockstates/green_dimension_portal.json",
+          "src/main/resources/assets/darkstarrr/models/block/green_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/darkstarrr/world/teleporter/GreenDimensionPortalShape.java",
           "src/main/resources/assets/darkstarrr/models/block/green_dimension_portal_ns.json",
-          "src/main/java/net/mcreator/darkstarrr/world/teleporter/GreenDimensionPortalShape.java"
+          "src/main/resources/data/darkstarrr/dimension_type/green_dimension.json",
+          "src/main/resources/assets/darkstarrr/models/item/green_dimension.json",
+          "src/main/java/net/mcreator/darkstarrr/item/GreenDimensionItem.java",
+          "src/main/resources/data/darkstarrr/dimension/green_dimension.json",
+          "src/main/java/net/mcreator/darkstarrr/world/teleporter/GreenDimensionTeleporter.java",
+          "src/main/java/net/mcreator/darkstarrr/block/GreenDimensionPortalBlock.java"
         ]
       }
     },
@@ -44,14 +44,30 @@
       "registry_name": "dark_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/blockstates/dark_ore.json",
-          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_ore.json",
-          "src/main/java/net/mcreator/darkstarrr/block/DarkOreBlock.java",
-          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_ore_biome_modifier.json",
+          "src/main/resources/data/darkstarrr/worldgen/configured_feature/dark_ore.json",
           "src/main/resources/assets/darkstarrr/models/item/dark_ore.json",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_ore.json",
+          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_ore_biome_modifier.json",
+          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_ore.json",
           "src/main/resources/assets/darkstarrr/models/block/dark_ore.json",
-          "src/main/resources/data/darkstarrr/worldgen/configured_feature/dark_ore.json"
+          "src/main/resources/assets/darkstarrr/blockstates/dark_ore.json",
+          "src/main/java/net/mcreator/darkstarrr/block/DarkOreBlock.java",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkGrassunderground",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grassunderground",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/darkstarrr/models/block/dark_grassunderground.json",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_grassunderground.json",
+          "src/main/java/net/mcreator/darkstarrr/block/DarkGrassundergroundBlock.java",
+          "src/main/resources/assets/darkstarrr/blockstates/dark_grassunderground.json",
+          "src/main/resources/assets/darkstarrr/models/item/dark_grassunderground.json"
         ]
       }
     },
@@ -72,18 +88,14 @@
       }
     },
     {
-      "name": "DarkGrassunderground",
-      "type": "block",
+      "name": "DarkVegetaPainting",
+      "type": "painting",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_grassunderground",
+      "registry_name": "dark_vegeta_painting",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/models/block/dark_grassunderground.json",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_grassunderground.json",
-          "src/main/java/net/mcreator/darkstarrr/block/DarkGrassundergroundBlock.java",
-          "src/main/resources/assets/darkstarrr/blockstates/dark_grassunderground.json",
-          "src/main/resources/assets/darkstarrr/models/item/dark_grassunderground.json"
+          "src/main/resources/data/darkstarrr/painting_variant/dark_vegeta_painting.json"
         ]
       }
     }
@@ -118,8 +130,6 @@
       "~CUSTOM:DarkGrass"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:DarkGrassunderground",
-      "~CUSTOM:DarkGrass",
       "~Blocks.DIRT#0",
       "~Blocks.GRASS",
       "~Blocks.BLACKSTONE"
@@ -128,10 +138,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.darkstarrr.dark_grassunderground": "Dark Grass",
       "subtitles.horrorambient": "",
       "block.darkstarrr.dark_ore.description_0": "teste teste",
-      "block.darkstarrr.dark_grass": "Dark Grass",
       "item.darkstarrr.dark_dimension": "acendedor de beck",
       "subtitles.musichorror": "",
       "biome.darkstarrr.dark_biome": "Dark Biome",
