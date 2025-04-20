@@ -13,14 +13,14 @@
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
-    "displayFluidOverlay": false,
+    "displayFluidOverlay": true,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
-    "connectedSides": false,
-    "transparencyType": "SOLID",
+    "hasTransparency": true,
+    "connectedSides": true,
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -69,7 +69,7 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "LEAVES",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,

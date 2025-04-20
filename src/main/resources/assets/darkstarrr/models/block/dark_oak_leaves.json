@@ -4,5 +4,5 @@
     "all": "darkstarrr:block/dark_oak_leaves",
     "particle": "darkstarrr:block/dark_oak_leaves"
   },
-  "render_type": "solid"
+  "render_type": "cutout_mipped"
 }
