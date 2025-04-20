@@ -19,5 +19,5 @@
     "max_inclusive": 9
   },
   "monster_spawn_block_light_limit": 2,
-  "effects": "darkstarrr:green_dimension"
+  "effects": "darkstarrr:dark_dimension"
 }

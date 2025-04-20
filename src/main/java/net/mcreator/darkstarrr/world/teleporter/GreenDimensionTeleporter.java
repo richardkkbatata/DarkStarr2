@@ -39,8 +39,8 @@ public class GreenDimensionTeleporter {
 	@SubscribeEvent
 	public static void registerPointOfInterest(RegisterEvent event) {
 		event.register(Registries.POINT_OF_INTEREST_TYPE, registerHelper -> {
-			PoiType poiType = new PoiType(ImmutableSet.copyOf(DarkstarrrModBlocks.GREEN_DIMENSION_PORTAL.get().getStateDefinition().getPossibleStates()), 0, 1);
-			registerHelper.register(ResourceLocation.parse("darkstarrr:green_dimension_portal"), poiType);
+			PoiType poiType = new PoiType(ImmutableSet.copyOf(DarkstarrrModBlocks.DARK_DIMENSION_PORTAL.get().getStateDefinition().getPossibleStates()), 0, 1);
+			registerHelper.register(ResourceLocation.parse("darkstarrr:dark_dimension_portal"), poiType);
 			poi = BuiltInRegistries.POINT_OF_INTEREST_TYPE.wrapAsHolder(poiType);
 		});
 	}
@@ -132,7 +132,7 @@ public class GreenDimensionTeleporter {
 				}
 			}
 		}
-		BlockState blockstate = DarkstarrrModBlocks.GREEN_DIMENSION_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, p_77668_);
+		BlockState blockstate = DarkstarrrModBlocks.DARK_DIMENSION_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, p_77668_);
 		for (int k2 = 0; k2 < 2; k2++) {
 			for (int l2 = 0; l2 < 3; l2++) {
 				blockpos$mutableblockpos.setWithOffset(blockpos, k2 * direction.getStepX(), l2, k2 * direction.getStepZ());

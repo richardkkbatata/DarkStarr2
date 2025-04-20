@@ -23,10 +23,10 @@ public class GreenDimensionDimension {
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return false;
+					return true;
 				}
 			};
-			event.register(ResourceLocation.parse("darkstarrr:green_dimension"), customEffect);
+			event.register(ResourceLocation.parse("darkstarrr:dark_dimension"), customEffect);
 		}
 	}
 }

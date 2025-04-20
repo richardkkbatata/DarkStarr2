@@ -22,7 +22,7 @@ public class DarkstarrrModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(DarkstarrrModItems.GREEN_DIMENSION.get());
+			tabData.accept(DarkstarrrModItems.DARK_DIMENSION.get());
 		}
 	}
 }

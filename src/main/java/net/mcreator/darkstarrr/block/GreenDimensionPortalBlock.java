@@ -74,14 +74,14 @@ public class GreenDimensionPortalBlock extends NetherPortalBlock {
 	@Override
 	@Nullable
 	public DimensionTransition getPortalDestination(ServerLevel p_350444_, Entity p_350334_, BlockPos p_350764_) {
-		ResourceKey<Level> resourcekey = p_350444_.dimension() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("darkstarrr:green_dimension"))
+		ResourceKey<Level> resourcekey = p_350444_.dimension() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("darkstarrr:dark_dimension"))
 				? Level.OVERWORLD
-				: ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("darkstarrr:green_dimension"));
+				: ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("darkstarrr:dark_dimension"));
 		ServerLevel serverlevel = p_350444_.getServer().getLevel(resourcekey);
 		if (serverlevel == null) {
 			return null;
 		} else {
-			boolean flag = serverlevel.dimension() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("darkstarrr:green_dimension"));
+			boolean flag = serverlevel.dimension() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("darkstarrr:dark_dimension"));
 			WorldBorder worldborder = serverlevel.getWorldBorder();
 			double d0 = DimensionType.getTeleportationScale(p_350444_.dimensionType(), serverlevel.dimensionType());
 			BlockPos blockpos = worldborder.clampToBounds(p_350334_.getX() * d0, p_350334_.getY(), p_350334_.getZ() * d0);

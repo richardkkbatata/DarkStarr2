@@ -140,7 +140,7 @@ public class GreenDimensionPortalShape {
 				if (!isEmpty(blockstate)) {
 					return i;
 				}
-				if (blockstate.getBlock() == DarkstarrrModBlocks.GREEN_DIMENSION_PORTAL.get()) {
+				if (blockstate.getBlock() == DarkstarrrModBlocks.DARK_DIMENSION_PORTAL.get()) {
 					this.numPortalBlocks++;
 				}
 			}
@@ -149,7 +149,7 @@ public class GreenDimensionPortalShape {
 	}
 
 	private static boolean isEmpty(BlockState p_77718_) {
-		return p_77718_.isAir() || p_77718_.getBlock() == DarkstarrrModBlocks.GREEN_DIMENSION_PORTAL.get();
+		return p_77718_.isAir() || p_77718_.getBlock() == DarkstarrrModBlocks.DARK_DIMENSION_PORTAL.get();
 	}
 
 	public boolean isValid() {
@@ -157,7 +157,7 @@ public class GreenDimensionPortalShape {
 	}
 
 	public void createPortalBlocks() {
-		BlockState blockstate = DarkstarrrModBlocks.GREEN_DIMENSION_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, this.axis);
+		BlockState blockstate = DarkstarrrModBlocks.DARK_DIMENSION_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, this.axis);
 		BlockPos.betweenClosed(this.bottomLeft, this.bottomLeft.relative(Direction.UP, this.height - 1).relative(this.rightDir, this.width - 1)).forEach(p_77725_ -> this.level.setBlock(p_77725_, blockstate, 18));
 	}
 

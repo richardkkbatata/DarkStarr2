@@ -1,5 +1,5 @@
 {
-  "type": "darkstarrr:green_dimension",
+  "type": "darkstarrr:dark_dimension",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {
@@ -62,7 +62,7 @@
       ]
     },
     "settings": {
-      "name": "darkstarrr:green_dimension",
+      "name": "darkstarrr:dark_dimension",
       "sea_level": 58,
       "legacy_random_source": false,
       "disable_mob_generation": false,
