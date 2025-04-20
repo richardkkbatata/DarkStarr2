@@ -23,6 +23,7 @@ public class DarkstarrrModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DarkstarrrModItems.GREEN_DIMENSION.get());
+			tabData.accept(DarkstarrrModItems.DARK_DIMENSION.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DarkstarrrModBlocks.DARK_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

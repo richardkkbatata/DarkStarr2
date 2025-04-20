@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "darkstarrr:dark_biome",
+          "biome": "swamp",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -21,13 +21,13 @@
     },
     "settings": {
       "name": "darkstarrr:green_dimension",
-      "sea_level": 58,
+      "sea_level": 62,
       "legacy_random_source": false,
       "disable_mob_generation": false,
       "aquifers_enabled": true,
-      "ore_veins_enabled": false,
+      "ore_veins_enabled": true,
       "default_block": {
-        "Name": "minecraft:blackstone"
+        "Name": "minecraft:mossy_cobblestone"
       },
       "default_fluid": {
         "Name": "minecraft:water",
@@ -39,7 +39,7 @@
       "noise": {
         "min_y": -64,
         "height": 384,
-        "size_horizontal": 2,
+        "size_horizontal": 4,
         "size_vertical": 4
       },
       "noise_router": {
@@ -383,7 +383,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "darkstarrr:dark_biome"
+                "swamp"
               ]
             },
             "then_run": {
@@ -417,14 +417,17 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "darkstarrr:dark_grass"
+                              "Name": "minecraft:grass_block",
+                              "Properties": {
+                                "snowy": "false"
+                              }
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:blackstone"
+                            "Name": "minecraft:gravel"
                           }
                         }
                       ]
@@ -442,7 +445,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "darkstarrr:dark_grassunderground"
+                        "Name": "minecraft:dirt"
                       }
                     }
                   }

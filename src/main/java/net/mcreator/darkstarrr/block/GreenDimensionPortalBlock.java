@@ -56,7 +56,7 @@ public class GreenDimensionPortalBlock extends NetherPortalBlock {
 	}
 
 	public GreenDimensionPortalBlock() {
-		super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 1).noLootTable());
+		super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 2).noLootTable());
 	}
 
 	private GreenDimensionTeleporter getTeleporter(ServerLevel level) {
@@ -178,7 +178,7 @@ public class GreenDimensionPortalBlock extends NetherPortalBlock {
 				pz = pos.getZ() + 0.5 + 0.25 * j;
 				vz = random.nextFloat() * 2 * j;
 			}
-			world.addParticle(ParticleTypes.INFESTED, px, py, pz, vx, vy, vz);
+			world.addParticle(ParticleTypes.ITEM_SLIME, px, py, pz, vx, vy, vz);
 		}
 		if (random.nextInt(110) == 0)
 			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse(("block.portal.ambient"))), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);

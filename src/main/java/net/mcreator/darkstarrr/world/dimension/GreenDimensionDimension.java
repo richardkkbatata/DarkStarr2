@@ -18,7 +18,7 @@ public class GreenDimensionDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(125f, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0.2, 0.2, 0.2).multiply(sunHeight * 0.94 + 0.06, sunHeight * 0.94 + 0.06, sunHeight * 0.91 + 0.09);
+					return new Vec3(0.2, 0.4, 0).multiply(sunHeight * 0.94 + 0.06, sunHeight * 0.94 + 0.06, sunHeight * 0.91 + 0.09);
 				}
 
 				@Override
