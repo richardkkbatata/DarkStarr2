@@ -14,7 +14,7 @@ import net.mcreator.darkstarrr.DarkstarrrMod;
 
 public class DarkstarrrModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(DarkstarrrMod.MODID);
-	public static final DeferredBlock<Block> DARK_DIMENSION_PORTAL = REGISTRY.register("dark_dimension_portal", GreenDimensionPortalBlock::new);
+	public static final DeferredBlock<Block> GREEN_DIMENSION_PORTAL = REGISTRY.register("green_dimension_portal", GreenDimensionPortalBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

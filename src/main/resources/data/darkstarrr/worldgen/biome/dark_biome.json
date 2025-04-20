@@ -10,12 +10,12 @@
       "max_delay": 24000,
       "replace_current_music": true
     },
-    "foliage_color": -16777216,
-    "grass_color": -16777216,
+    "foliage_color": -14610673,
+    "grass_color": -14672354,
     "sky_color": -15396077,
     "fog_color": -15396077,
     "water_color": -13564924,
-    "water_fog_color": -13237501
+    "water_fog_color": -14675695
   },
   "spawners": {
     "monster": [],

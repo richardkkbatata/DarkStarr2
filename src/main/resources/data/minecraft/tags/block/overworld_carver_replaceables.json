@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft:blackstone",
     "minecraft:dirt",
-    "minecraft:grass_block"
+    "minecraft:grass_block",
+    "minecraft:blackstone"
   ]
 }
