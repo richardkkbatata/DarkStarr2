@@ -36,9 +36,7 @@
     "customProperties": [],
     "name": "Minério Sombrio",
     "specialInformation": {
-      "fixedValue": [
-        "teste teste"
-      ]
+      "fixedValue": []
     },
     "hardness": 1.5,
     "resistance": 10.0,
