@@ -114,6 +114,22 @@
           "src/main/resources/data/darkstarrr/loot_table/blocks/darkstaroak.json"
         ]
       }
+    },
+    {
+      "name": "DarkOakLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/darkstarrr/models/block/dark_oak_leaves.json",
+          "src/main/resources/assets/darkstarrr/models/item/dark_oak_leaves.json",
+          "src/main/resources/assets/darkstarrr/blockstates/dark_oak_leaves.json",
+          "src/main/java/net/mcreator/darkstarrr/block/DarkOakLeavesBlock.java",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_oak_leaves.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -159,6 +175,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.darkstarrr.dark_oak_leaves": "Dark Oak Leaves",
       "block.darkstarrr.dark_grassunderground": "Dark Grass",
       "subtitles.horrorambient": "",
       "block.darkstarrr.dark_ore.description_0": "teste teste",
