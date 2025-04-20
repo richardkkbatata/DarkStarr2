@@ -6,8 +6,11 @@ package net.mcreator.darkstarrr.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.darkstarrr.item.GreenDimensionItem;
 import net.mcreator.darkstarrr.DarkstarrrMod;
@@ -15,6 +18,11 @@ import net.mcreator.darkstarrr.DarkstarrrMod;
 public class DarkstarrrModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(DarkstarrrMod.MODID);
 	public static final DeferredItem<Item> GREEN_DIMENSION = REGISTRY.register("green_dimension", GreenDimensionItem::new);
+	public static final DeferredItem<Item> DARK_ORE = block(DarkstarrrModBlocks.DARK_ORE);
+
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

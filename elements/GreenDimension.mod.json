@@ -4,9 +4,6 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "roofed_forest"
-      },
-      {
         "value": "CUSTOM:DarkBiome"
       }
     ],
@@ -18,17 +15,17 @@
       "value": "Blocks.FLOWING_WATER"
     },
     "seaLevel": 58,
-    "generateOreVeins": true,
+    "generateOreVeins": false,
     "generateAquifers": true,
     "horizontalNoiseSize": 2,
     "verticalNoiseSize": 4,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": true,
-    "cloudHeight": 192.0,
+    "cloudHeight": 125.0,
     "skyType": "NORMAL",
     "airColor": {
-      "value": -13434676,
+      "value": -13421773,
       "falpha": 0.0
     },
     "sunHeightAffectsFog": true,

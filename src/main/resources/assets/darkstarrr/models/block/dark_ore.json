@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "darkstarrr:block/dark_ore",
+    "up": "darkstarrr:block/dark_ore",
+    "north": "darkstarrr:block/dark_ore",
+    "east": "darkstarrr:block/dark_ore",
+    "south": "darkstarrr:block/dark_ore",
+    "west": "darkstarrr:block/dark_ore",
+    "particle": "darkstarrr:block/dark_ore"
+  },
+  "render_type": "solid"
+}
