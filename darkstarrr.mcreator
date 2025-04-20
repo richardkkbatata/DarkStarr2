@@ -1,11 +1,47 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "DarkBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/darkstarrr/worldgen/configured_feature/dark_biome_tree.json",
+          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_biome_tree.json",
+          "src/main/resources/data/darkstarrr/worldgen/biome/dark_biome.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "horrorambient",
+      "files": [
+        "youtube-_gx9elh0bwe0_"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "musichorror",
+      "files": [
+        "silent-hill-3-ost-never-forgive-me_-never-forget-me-__r2ozekbg20_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "subtitles.horrorambient": "",
+      "subtitles.musichorror": "",
+      "biome.darkstarrr.dark_biome": "Dark Biome"
+    }
   },
   "foldersRoot": {
     "name": "~",
