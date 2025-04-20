@@ -54,6 +54,18 @@
           "src/main/resources/data/darkstarrr/loot_table/blocks/dark_ore.json"
         ]
       }
+    },
+    {
+      "name": "DarkVegetaPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_vegeta_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/darkstarrr/painting_variant/dark_vegeta_painting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -93,11 +105,13 @@
     "en_us": {
       "subtitles.horrorambient": "",
       "block.darkstarrr.dark_ore.description_0": "teste teste",
+      "painting.darkstarrr.dark_vegeta_painting.author": "God of Darkness",
       "item.darkstarrr.dark_dimension": "acendedor de beck",
       "subtitles.musichorror": "",
       "biome.darkstarrr.dark_biome": "Dark Biome",
       "item.darkstarrr.green_dimension": "acendedor de beck",
-      "block.darkstarrr.dark_ore": "Minério Sombrio"
+      "block.darkstarrr.dark_ore": "Minério Sombrio",
+      "painting.darkstarrr.dark_vegeta_painting.title": "Dark Vegeta Painting"
     }
   },
   "foldersRoot": {
