@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "darkstarrr:block/dark_star_oak",
+    "up": "darkstarrr:block/dark_star_oak",
+    "north": "darkstarrr:block/dark_star_wood",
+    "east": "darkstarrr:block/dark_star_wood",
+    "south": "darkstarrr:block/dark_star_wood",
+    "west": "darkstarrr:block/dark_star_wood",
+    "particle": "darkstarrr:block/dark_star_oak"
+  },
+  "render_type": "solid"
+}

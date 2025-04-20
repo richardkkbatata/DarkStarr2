@@ -1,26 +1,8 @@
 
 package net.mcreator.darkstarrr.item;
 
-import net.neoforged.api.distmarker.OnlyIn;
-import net.neoforged.api.distmarker.Dist;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.context.UseOnContext;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.darkstarrr.block.DarkDimensionPortalBlock;
-
-import java.util.List;
-
 public class DarkDimensionItem extends Item {
+
 	public DarkDimensionItem() {
 		super(new Item.Properties().rarity(Rarity.EPIC).durability(64));
 	}
@@ -45,11 +27,13 @@ public class DarkDimensionItem extends Item {
 			int y = pos.getY();
 			int z = pos.getZ();
 			boolean success = false;
+
 			if (world.isEmptyBlock(pos) && true) {
 				DarkDimensionPortalBlock.portalSpawn(world, pos);
 				itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(context.getHand()));
 				success = true;
 			}
+
 			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
 		}
 	}

@@ -120,6 +120,38 @@
           "src/main/java/net/mcreator/darkstarrr/block/DarkDimensionPortalBlock.java"
         ]
       }
+    },
+    {
+      "name": "DarkOakLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/block/DarkOakLeavesBlock.java",
+          "src/main/resources/assets/darkstarrr/models/item/dark_oak_leaves.json",
+          "src/main/resources/assets/darkstarrr/models/block/dark_oak_leaves.json",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_oak_leaves.json",
+          "src/main/resources/assets/darkstarrr/blockstates/dark_oak_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "Darkstaroak",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstaroak",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/darkstarrr/models/block/darkstaroak.json",
+          "src/main/java/net/mcreator/darkstarrr/block/DarkstaroakBlock.java",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/darkstaroak.json",
+          "src/main/resources/assets/darkstarrr/blockstates/darkstaroak.json",
+          "src/main/resources/assets/darkstarrr/models/item/darkstaroak.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -146,7 +178,6 @@
       "~CUSTOM:DarkGrass"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.MOSSY_COBBLESTONE",
       "~CUSTOM:DarkGrassunderground",
       "~CUSTOM:DarkGrass",
       "~Blocks.DIRT#0",
@@ -156,6 +187,9 @@
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:DarkOre"
     ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Darkstaroak"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:DarkOre"
     ]
@@ -164,14 +198,15 @@
   "language_map": {
     "en_us": {
       "item.darkstarrr.green_dimension.description_0": "para fumar um beck GIGANTESCOOO",
+      "block.darkstarrr.dark_grassunderground": "Dark Grass",
       "subtitles.horrorambient": "",
       "block.darkstarrr.dark_ore.description_0": "teste teste",
+      "block.darkstarrr.dark_grass": "Dark Grass",
       "item.darkstarrr.dark_dimension": "pacto sombrio",
       "subtitles.musichorror": "",
       "biome.darkstarrr.dark_biome": "Dark Biome",
       "item.darkstarrr.green_dimension": "acendedor de beck",
-      "block.darkstarrr.dark_ore": "Minério Sombrio",
-      "item.darkstarrr.dark_dimension.description_0": "tens o que é necessário para esmagares a minha rata?"
+      "block.darkstarrr.dark_ore": "Minério Sombrio"
     }
   },
   "foldersRoot": {

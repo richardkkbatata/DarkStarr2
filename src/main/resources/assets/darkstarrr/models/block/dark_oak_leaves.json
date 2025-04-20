@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "darkstarrr:block/dark_oak_leaves",
+    "particle": "darkstarrr:block/dark_oak_leaves"
+  },
+  "render_type": "solid"
+}
