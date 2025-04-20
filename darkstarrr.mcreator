@@ -58,6 +58,8 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS",
       "~Blocks.BLACKSTONE"
     ]
   },
@@ -65,7 +67,8 @@
   "language_map": {
     "en_us": {
       "subtitles.horrorambient": "",
-      "subtitles.musichorror": ""
+      "subtitles.musichorror": "",
+      "item.darkstarrr.green_dimension": "acendedor de beck"
     }
   },
   "foldersRoot": {

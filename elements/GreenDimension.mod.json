@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "roofed_forest"
+      },
+      {
+        "value": "CUSTOM:DarkBiome"
       }
     ],
     "worldGenType": "Normal world gen",
