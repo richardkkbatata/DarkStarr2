@@ -1,21 +1,35 @@
 
 package net.mcreator.darkstarrr.item;
 
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.darkstarrr.block.GreenDimensionPortalBlock;
 
+import java.util.List;
+
 public class GreenDimensionItem extends Item {
 	public GreenDimensionItem() {
 		super(new Item.Properties().rarity(Rarity.EPIC).durability(64));
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, list, flag);
+		list.add(Component.translatable("item.darkstarrr.green_dimension.description_0"));
 	}
 
 	@Override

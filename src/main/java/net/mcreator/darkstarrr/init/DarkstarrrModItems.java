@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.darkstarrr.item.GreenDimensionItem;
+import net.mcreator.darkstarrr.item.DarkDimensionItem;
 import net.mcreator.darkstarrr.DarkstarrrMod;
 
 public class DarkstarrrModItems {
@@ -21,8 +22,9 @@ public class DarkstarrrModItems {
 	public static final DeferredItem<Item> DARK_ORE = block(DarkstarrrModBlocks.DARK_ORE);
 	public static final DeferredItem<Item> DARK_GRASSUNDERGROUND = block(DarkstarrrModBlocks.DARK_GRASSUNDERGROUND);
 	public static final DeferredItem<Item> DARK_GRASS = block(DarkstarrrModBlocks.DARK_GRASS);
-	public static final DeferredItem<Item> DARKSTAROAK = block(DarkstarrrModBlocks.DARKSTAROAK);
+	public static final DeferredItem<Item> DARK_DIMENSION = REGISTRY.register("dark_dimension", DarkDimensionItem::new);
 	public static final DeferredItem<Item> DARK_OAK_LEAVES = block(DarkstarrrModBlocks.DARK_OAK_LEAVES);
+	public static final DeferredItem<Item> DARKSTAROAK = block(DarkstarrrModBlocks.DARKSTAROAK);
 
 	// Start of user code block custom items
 	// End of user code block custom items
