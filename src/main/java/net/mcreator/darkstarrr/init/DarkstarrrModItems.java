@@ -7,6 +7,7 @@ package net.mcreator.darkstarrr.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -25,6 +26,7 @@ public class DarkstarrrModItems {
 	public static final DeferredItem<Item> DARK_DIMENSION = REGISTRY.register("dark_dimension", DarkDimensionItem::new);
 	public static final DeferredItem<Item> DARK_OAK_LEAVES = block(DarkstarrrModBlocks.DARK_OAK_LEAVES);
 	public static final DeferredItem<Item> DARKSTAROAK = block(DarkstarrrModBlocks.DARKSTAROAK);
+	public static final DeferredItem<Item> DARK_STALKER_SPAWN_EGG = REGISTRY.register("dark_stalker_spawn_egg", () -> new DeferredSpawnEggItem(DarkstarrrModEntities.DARK_STALKER, -16777216, -3407872, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -152,6 +152,55 @@
           "src/main/resources/data/darkstarrr/loot_table/blocks/darkstaroak.json"
         ]
       }
+    },
+    {
+      "name": "DarkStalker",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stalker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_stalker_biome_modifier.json",
+          "src/main/java/net/mcreator/darkstarrr/client/renderer/DarkStalkerRenderer.java",
+          "src/main/java/net/mcreator/darkstarrr/entity/DarkStalkerEntity.java",
+          "src/main/resources/assets/darkstarrr/models/item/dark_stalker_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkStalkerOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stalker_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/procedures/DarkStalkerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -199,6 +248,7 @@
       "block.darkstarrr.dark_grassunderground": "Dark Grass",
       "subtitles.horrorambient": "",
       "block.darkstarrr.dark_ore.description_0": "teste teste",
+      "entity.darkstarrr.dark_stalker": "Dark Stalker",
       "painting.darkstarrr.dark_vegeta_painting.author": "God of Darkness",
       "item.darkstarrr.dark_dimension": "pacto sombrio",
       "subtitles.musichorror": "",
@@ -210,6 +260,7 @@
       "biome.darkstarrr.dark_biome": "Dark Biome",
       "item.darkstarrr.green_dimension": "acendedor de beck",
       "block.darkstarrr.dark_ore": "Minério Sombrio",
+      "item.darkstarrr.dark_stalker_spawn_egg": "Dark Stalker Spawn Egg",
       "painting.darkstarrr.dark_vegeta_painting.title": "Dark Vegeta Painting"
     }
   },
