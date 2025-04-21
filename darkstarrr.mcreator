@@ -161,7 +161,6 @@
       "registry_name": "dark_stalker",
       "metadata": {
         "files": [
-          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_stalker_biome_modifier.json",
           "src/main/java/net/mcreator/darkstarrr/client/renderer/DarkStalkerRenderer.java",
           "src/main/java/net/mcreator/darkstarrr/entity/DarkStalkerEntity.java",
           "src/main/resources/assets/darkstarrr/models/item/dark_stalker_spawn_egg.json"
@@ -239,7 +238,7 @@
     {
       "name": "Guisuporte",
       "type": "gui",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "guisuporte",
       "metadata": {
@@ -269,7 +268,7 @@
     {
       "name": "Renderitem",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "renderitem",
       "metadata": {
@@ -287,7 +286,7 @@
     {
       "name": "Ssss",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ssss",
       "metadata": {
