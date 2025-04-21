@@ -253,7 +253,7 @@
     {
       "name": "SuporteDeItens",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "suporte_de_itens",
       "metadata": {
@@ -271,7 +271,7 @@
     {
       "name": "Renderitem",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "renderitem",
       "metadata": {
