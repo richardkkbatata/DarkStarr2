@@ -161,9 +161,9 @@
       "registry_name": "dark_stalker",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/darkstarrr/client/renderer/DarkStalkerRenderer.java",
           "src/main/java/net/mcreator/darkstarrr/entity/DarkStalkerEntity.java",
-          "src/main/resources/assets/darkstarrr/models/item/dark_stalker_spawn_egg.json",
-          "src/main/java/net/mcreator/darkstarrr/client/renderer/DarkStalkerRenderer.java"
+          "src/main/resources/assets/darkstarrr/models/item/dark_stalker_spawn_egg.json"
         ]
       }
     },
@@ -251,7 +251,7 @@
     {
       "name": "SuporteDeItens",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "suporte_de_itens",
       "metadata": {
@@ -275,12 +275,7 @@
         "files": [
           "src/main/java/net/mcreator/darkstarrr/procedures/RenderitemProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
