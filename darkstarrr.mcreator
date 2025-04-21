@@ -233,7 +233,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Guisuporte",
@@ -246,7 +247,8 @@
           "src/main/java/net/mcreator/darkstarrr/client/gui/GuisuporteScreen.java",
           "src/main/java/net/mcreator/darkstarrr/world/inventory/GuisuporteMenu.java"
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "SuporteDeItens",
@@ -263,12 +265,13 @@
           "src/main/java/net/mcreator/darkstarrr/block/entity/SuporteDeItensBlockEntity.java",
           "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json"
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Renderitem",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "renderitem",
       "metadata": {
@@ -281,7 +284,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Ssss",
