@@ -375,7 +375,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "itemSupport",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "darkstarrr",
