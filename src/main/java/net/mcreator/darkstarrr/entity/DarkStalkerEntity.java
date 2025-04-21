@@ -12,7 +12,6 @@ import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacementTypes;
@@ -34,13 +33,7 @@ public class DarkStalkerEntity extends Monster {
 	public DarkStalkerEntity(EntityType<DarkStalkerEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
-		setNoAi(false);
-	}
-
-	@Override
-	protected void registerGoals() {
-		super.registerGoals();
-		this.goalSelector.addGoal(1, new LookAtPlayerGoal(this, Player.class, (float) 100));
+		setNoAi(true);
 	}
 
 	@Override
@@ -60,15 +53,6 @@ public class DarkStalkerEntity extends Monster {
 
 	@Override
 	public boolean hurt(DamageSource damagesource, float amount) {
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Level world = this.level();
-		Entity entity = this;
-		Entity sourceentity = damagesource.getEntity();
-		Entity immediatesourceentity = damagesource.getDirectEntity();
-
-		DarkStalkerOnEntityTickUpdateProcedure.execute(world, x, y, z, entity);
 		if (damagesource.is(DamageTypes.IN_FIRE))
 			return false;
 		if (damagesource.getDirectEntity() instanceof AbstractArrow)

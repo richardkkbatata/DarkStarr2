@@ -203,19 +203,36 @@
       }
     },
     {
-      "name": "SuporteDeItens",
-      "type": "block",
-      "compiles": false,
+      "name": "Colocaritem",
+      "type": "procedure",
+      "compiles": true,
       "locked_code": false,
-      "registry_name": "suporte_de_itens",
+      "registry_name": "colocaritem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/models/block/suporte_de_itens.json",
-          "src/main/java/net/mcreator/darkstarrr/block/SuporteDeItensBlock.java",
-          "src/main/resources/assets/darkstarrr/blockstates/suporte_de_itens.json",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json",
-          "src/main/java/net/mcreator/darkstarrr/block/entity/SuporteDeItensBlockEntity.java",
-          "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json"
+          "src/main/java/net/mcreator/darkstarrr/procedures/ColocaritemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     },
@@ -229,6 +246,23 @@
         "files": [
           "src/main/java/net/mcreator/darkstarrr/client/gui/GuisuporteScreen.java",
           "src/main/java/net/mcreator/darkstarrr/world/inventory/GuisuporteMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "SuporteDeItens",
+      "type": "block",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "suporte_de_itens",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/darkstarrr/models/block/suporte_de_itens.json",
+          "src/main/java/net/mcreator/darkstarrr/block/SuporteDeItensBlock.java",
+          "src/main/resources/assets/darkstarrr/blockstates/suporte_de_itens.json",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json",
+          "src/main/java/net/mcreator/darkstarrr/block/entity/SuporteDeItensBlockEntity.java",
+          "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json"
         ]
       }
     },
@@ -251,20 +285,16 @@
       }
     },
     {
-      "name": "Colocaritem",
+      "name": "Ssss",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "colocaritem",
+      "registry_name": "ssss",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/darkstarrr/procedures/ColocaritemProcedure.java"
+          "src/main/java/net/mcreator/darkstarrr/procedures/SsssProcedure.java"
         ],
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -308,12 +338,12 @@
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:DarkOre"
     ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DarkOre"
+    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:SuporteDeItens",
       "~CUSTOM:Darkstaroak"
-    ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:DarkOre"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:DarkGrass"

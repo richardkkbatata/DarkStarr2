@@ -1,19 +1,6 @@
 package net.mcreator.darkstarrr.procedures;
 
-import net.neoforged.neoforge.items.IItemHandlerModifiable;
-import net.neoforged.neoforge.items.IItemHandler;
-import net.neoforged.neoforge.common.extensions.ILevelExtension;
-import net.neoforged.neoforge.capabilities.Capabilities;
-
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.darkstarrr.init.DarkstarrrModBlocks;
+import net.neoforged.bus.api.Event;
 
 public class ColocaritemProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -22,7 +9,7 @@ public class ColocaritemProcedure {
 		ItemStack storingItem = ItemStack.EMPTY;
 		double blockItemQtty = 0;
 		double playerItemQtty = 0;
-		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == DarkstarrrModBlocks.SUPORTE_DE_ITENS.get()) {
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == DarkstarrrModItems.DELETED_MOD_ELEMENT.get()) {
 			storingItem = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
 			blockItemQtty = new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
