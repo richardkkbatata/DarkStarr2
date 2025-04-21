@@ -1,62 +1,6 @@
 package net.mcreator.darkstarrr.procedures;
 
-import org.joml.Vector3f;
-import org.joml.Matrix4f;
-
-import net.neoforged.neoforge.items.IItemHandler;
-import net.neoforged.neoforge.common.extensions.ILevelExtension;
-import net.neoforged.neoforge.client.model.data.ModelData;
-import net.neoforged.neoforge.client.event.RenderLevelStageEvent;
-import net.neoforged.neoforge.capabilities.Capabilities;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
-import net.neoforged.api.distmarker.Dist;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.chunk.LevelChunk;
-import net.minecraft.world.level.block.state.properties.Property;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.RenderShape;
-import net.minecraft.world.level.block.EntityBlock;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.ItemDisplayContext;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.util.RandomSource;
-import net.minecraft.core.SectionPos;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-import net.minecraft.client.resources.model.BakedModel;
-import net.minecraft.client.renderer.texture.OverlayTexture;
-import net.minecraft.client.renderer.entity.ItemRenderer;
-import net.minecraft.client.renderer.entity.EntityRenderer;
-import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
-import net.minecraft.client.renderer.block.ModelBlockRenderer;
-import net.minecraft.client.renderer.block.BlockRenderDispatcher;
-import net.minecraft.client.renderer.Sheets;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.renderer.LightTexture;
-import net.minecraft.client.renderer.LevelRenderer;
-import net.minecraft.client.multiplayer.ClientLevel;
-import net.minecraft.client.gui.Font;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.darkstarrr.init.DarkstarrrModBlocks;
-
-import javax.annotation.Nullable;
-
-import java.util.Map;
-import java.util.HashMap;
-
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.systems.RenderSystem;
 
 @EventBusSubscriber(value = Dist.CLIENT)
 public class RenderitemProcedure {
