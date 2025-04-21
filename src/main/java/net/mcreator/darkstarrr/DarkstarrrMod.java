@@ -20,9 +20,11 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.darkstarrr.init.DarkstarrrModTabs;
 import net.mcreator.darkstarrr.init.DarkstarrrModSounds;
+import net.mcreator.darkstarrr.init.DarkstarrrModMenus;
 import net.mcreator.darkstarrr.init.DarkstarrrModItems;
 import net.mcreator.darkstarrr.init.DarkstarrrModEntities;
 import net.mcreator.darkstarrr.init.DarkstarrrModBlocks;
+import net.mcreator.darkstarrr.init.DarkstarrrModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -43,10 +45,12 @@ public class DarkstarrrMod {
 		modEventBus.addListener(this::registerNetworking);
 		DarkstarrrModSounds.REGISTRY.register(modEventBus);
 		DarkstarrrModBlocks.REGISTRY.register(modEventBus);
-
+		DarkstarrrModBlockEntities.REGISTRY.register(modEventBus);
 		DarkstarrrModItems.REGISTRY.register(modEventBus);
 		DarkstarrrModEntities.REGISTRY.register(modEventBus);
 		DarkstarrrModTabs.REGISTRY.register(modEventBus);
+
+		DarkstarrrModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

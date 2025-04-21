@@ -32,6 +32,8 @@ public class DarkstarrrModTabs {
 			tabData.accept(DarkstarrrModBlocks.DARKSTAROAK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(DarkstarrrModItems.DARK_STALKER_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(DarkstarrrModBlocks.SUPORTE_DE_ITENS.get().asItem());
 		}
 	}
 }

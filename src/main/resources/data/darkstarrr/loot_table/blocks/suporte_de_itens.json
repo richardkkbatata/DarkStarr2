@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "darkstarrr:blocks/suporte_de_itens",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "darkstarrr:suporte_de_itens"
+        }
+      ]
+    }
+  ]
+}

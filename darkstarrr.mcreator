@@ -201,6 +201,88 @@
           }
         ]
       }
+    },
+    {
+      "name": "SuporteDeItens",
+      "type": "block",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "suporte_de_itens",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/darkstarrr/models/block/suporte_de_itens.json",
+          "src/main/java/net/mcreator/darkstarrr/block/SuporteDeItensBlock.java",
+          "src/main/resources/assets/darkstarrr/blockstates/suporte_de_itens.json",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json",
+          "src/main/java/net/mcreator/darkstarrr/block/entity/SuporteDeItensBlockEntity.java",
+          "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json"
+        ]
+      }
+    },
+    {
+      "name": "Guisuporte",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guisuporte",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/client/gui/GuisuporteScreen.java",
+          "src/main/java/net/mcreator/darkstarrr/world/inventory/GuisuporteMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Renderitem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renderitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/procedures/RenderitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Colocaritem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colocaritem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/procedures/ColocaritemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -226,11 +308,12 @@
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:DarkOre"
     ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SuporteDeItens",
+      "~CUSTOM:Darkstaroak"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:DarkOre"
-    ],
-    "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:Darkstaroak"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:DarkGrass"
@@ -252,6 +335,7 @@
       "painting.darkstarrr.dark_vegeta_painting.author": "God of Darkness",
       "item.darkstarrr.dark_dimension": "pacto sombrio",
       "subtitles.musichorror": "",
+      "block.darkstarrr.suporte_de_itens": "Suporte De Itens",
       "item.darkstarrr.dark_dimension.description_0": "tens o que é necessário para esmagares a minha rata?",
       "block.darkstarrr.dark_oak_leaves": "Dark Oak Leaves",
       "item.darkstarrr.green_dimension.description_0": "para fumar um beck GIGANTESCOOO",

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "darkstarrr:block/suporte_de_itens"
+    },
+    "facing=east": {
+      "model": "darkstarrr:block/suporte_de_itens",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "darkstarrr:block/suporte_de_itens",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkstarrr:block/suporte_de_itens",
+      "y": 270
+    }
+  }
+}

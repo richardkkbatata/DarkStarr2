@@ -1,0 +1,9 @@
+{
+  "parent": "darkstarrr:custom/suporte_de_itens",
+  "textures": {
+    "all": "darkstarrr:block/top_oak_planks",
+    "particle": "darkstarrr:block/top_oak_planks",
+    "0": "darkstarrr:block/item_support"
+  },
+  "render_type": "solid"
+}
