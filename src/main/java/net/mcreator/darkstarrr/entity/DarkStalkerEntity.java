@@ -40,7 +40,7 @@ public class DarkStalkerEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new LookAtPlayerGoal(this, Player.class, (float) 60));
+		this.goalSelector.addGoal(1, new LookAtPlayerGoal(this, Player.class, (float) 100));
 	}
 
 	@Override
