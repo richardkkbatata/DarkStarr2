@@ -119,16 +119,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:DarkStalker"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 3,
-        "spawnType": "monster"
-      }
-    ]
+    "spawnEntries": []
   }
 }

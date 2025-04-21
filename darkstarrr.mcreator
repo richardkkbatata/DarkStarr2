@@ -161,6 +161,7 @@
       "registry_name": "dark_stalker",
       "metadata": {
         "files": [
+          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_stalker_biome_modifier.json",
           "src/main/java/net/mcreator/darkstarrr/client/renderer/DarkStalkerRenderer.java",
           "src/main/java/net/mcreator/darkstarrr/entity/DarkStalkerEntity.java",
           "src/main/resources/assets/darkstarrr/models/item/dark_stalker_spawn_egg.json"

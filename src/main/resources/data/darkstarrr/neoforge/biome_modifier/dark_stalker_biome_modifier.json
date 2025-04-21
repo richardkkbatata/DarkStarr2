@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "darkstarrr:dark_biome",
+  "spawners": {
+    "type": "darkstarrr:dark_stalker",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
