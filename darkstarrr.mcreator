@@ -257,12 +257,12 @@
       "registry_name": "suporte_de_itens",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/models/block/suporte_de_itens.json",
           "src/main/java/net/mcreator/darkstarrr/block/SuporteDeItensBlock.java",
+          "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json",
           "src/main/resources/assets/darkstarrr/blockstates/suporte_de_itens.json",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json",
           "src/main/java/net/mcreator/darkstarrr/block/entity/SuporteDeItensBlockEntity.java",
-          "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json"
+          "src/main/resources/assets/darkstarrr/models/block/suporte_de_itens.json",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json"
         ]
       }
     },
