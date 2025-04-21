@@ -201,6 +201,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "Ssss",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/procedures/SsssProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
