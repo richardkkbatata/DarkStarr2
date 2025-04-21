@@ -109,7 +109,7 @@
     "guiBoundTo": "Guisuporte",
     "openGUIOnRightClick": false,
     "inventorySize": 1,
-    "inventoryStackSize": 1,
+    "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
@@ -124,6 +124,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Colocaritem"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

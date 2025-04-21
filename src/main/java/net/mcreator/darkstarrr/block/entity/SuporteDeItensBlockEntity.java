@@ -81,7 +81,7 @@ public class SuporteDeItensBlockEntity extends RandomizableContainerBlockEntity 
 
 	@Override
 	public int getMaxStackSize() {
-		return 1;
+		return 64;
 	}
 
 	@Override
