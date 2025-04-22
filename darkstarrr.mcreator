@@ -359,8 +359,8 @@
         "files": [
           "src/main/java/net/mcreator/darkstarrr/block/DarkStoneBlock.java",
           "src/main/resources/data/darkstarrr/loot_table/blocks/dark_stone.json",
-          "src/main/resources/assets/darkstarrr/models/item/dark_stone.json",
           "src/main/resources/assets/darkstarrr/blockstates/dark_stone.json",
+          "src/main/resources/assets/darkstarrr/models/item/dark_stone.json",
           "src/main/resources/assets/darkstarrr/models/block/dark_stone.json"
         ]
       }
