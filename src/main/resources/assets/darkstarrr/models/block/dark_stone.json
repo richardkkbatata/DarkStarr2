@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "darkstarrr:block/dark_stone",
+    "particle": "darkstarrr:block/dark_stone"
+  },
+  "render_type": "solid"
+}

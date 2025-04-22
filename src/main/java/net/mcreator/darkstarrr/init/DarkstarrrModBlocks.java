@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.darkstarrr.block.SuporteDeItensBlock;
 import net.mcreator.darkstarrr.block.GreenDimensionPortalBlock;
 import net.mcreator.darkstarrr.block.DarkstaroakBlock;
+import net.mcreator.darkstarrr.block.DarkStoneBlock;
 import net.mcreator.darkstarrr.block.DarkOreBlock;
 import net.mcreator.darkstarrr.block.DarkOakLeavesBlock;
 import net.mcreator.darkstarrr.block.DarkGrassundergroundBlock;
@@ -29,6 +30,7 @@ public class DarkstarrrModBlocks {
 	public static final DeferredBlock<Block> DARK_OAK_LEAVES = REGISTRY.register("dark_oak_leaves", DarkOakLeavesBlock::new);
 	public static final DeferredBlock<Block> DARKSTAROAK = REGISTRY.register("darkstaroak", DarkstaroakBlock::new);
 	public static final DeferredBlock<Block> SUPORTE_DE_ITENS = REGISTRY.register("suporte_de_itens", SuporteDeItensBlock::new);
+	public static final DeferredBlock<Block> DARK_STONE = REGISTRY.register("dark_stone", DarkStoneBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

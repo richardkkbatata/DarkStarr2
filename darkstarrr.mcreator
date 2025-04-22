@@ -8,17 +8,17 @@
       "registry_name": "green_dimension",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/models/item/green_dimension.json",
-          "src/main/resources/assets/darkstarrr/models/block/green_dimension_portal_ew.json",
-          "src/main/resources/data/darkstarrr/dimension/green_dimension.json",
-          "src/main/resources/assets/darkstarrr/blockstates/green_dimension_portal.json",
           "src/main/java/net/mcreator/darkstarrr/world/dimension/GreenDimensionDimension.java",
-          "src/main/java/net/mcreator/darkstarrr/item/GreenDimensionItem.java",
-          "src/main/java/net/mcreator/darkstarrr/world/teleporter/GreenDimensionTeleporter.java",
-          "src/main/java/net/mcreator/darkstarrr/block/GreenDimensionPortalBlock.java",
-          "src/main/resources/data/darkstarrr/dimension_type/green_dimension.json",
+          "src/main/resources/assets/darkstarrr/blockstates/green_dimension_portal.json",
+          "src/main/resources/assets/darkstarrr/models/block/green_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/darkstarrr/world/teleporter/GreenDimensionPortalShape.java",
           "src/main/resources/assets/darkstarrr/models/block/green_dimension_portal_ns.json",
-          "src/main/java/net/mcreator/darkstarrr/world/teleporter/GreenDimensionPortalShape.java"
+          "src/main/resources/data/darkstarrr/dimension_type/green_dimension.json",
+          "src/main/resources/assets/darkstarrr/models/item/green_dimension.json",
+          "src/main/java/net/mcreator/darkstarrr/item/GreenDimensionItem.java",
+          "src/main/resources/data/darkstarrr/dimension/green_dimension.json",
+          "src/main/java/net/mcreator/darkstarrr/world/teleporter/GreenDimensionTeleporter.java",
+          "src/main/java/net/mcreator/darkstarrr/block/GreenDimensionPortalBlock.java"
         ]
       }
     },
@@ -31,8 +31,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/darkstarrr/worldgen/configured_feature/dark_biome_tree.json",
-          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_biome_tree.json",
-          "src/main/resources/data/darkstarrr/worldgen/biome/dark_biome.json"
+          "src/main/resources/data/darkstarrr/worldgen/biome/dark_biome.json",
+          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_biome_tree.json"
         ]
       }
     },
@@ -44,14 +44,14 @@
       "registry_name": "dark_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/blockstates/dark_ore.json",
-          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_ore.json",
-          "src/main/java/net/mcreator/darkstarrr/block/DarkOreBlock.java",
-          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_ore_biome_modifier.json",
+          "src/main/resources/data/darkstarrr/worldgen/configured_feature/dark_ore.json",
           "src/main/resources/assets/darkstarrr/models/item/dark_ore.json",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_ore.json",
+          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_ore_biome_modifier.json",
+          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_ore.json",
           "src/main/resources/assets/darkstarrr/models/block/dark_ore.json",
-          "src/main/resources/data/darkstarrr/worldgen/configured_feature/dark_ore.json"
+          "src/main/resources/assets/darkstarrr/blockstates/dark_ore.json",
+          "src/main/java/net/mcreator/darkstarrr/block/DarkOreBlock.java",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_ore.json"
         ]
       }
     },
@@ -63,11 +63,11 @@
       "registry_name": "dark_grassunderground",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/models/block/dark_grassunderground.json",
           "src/main/resources/data/darkstarrr/loot_table/blocks/dark_grassunderground.json",
-          "src/main/java/net/mcreator/darkstarrr/block/DarkGrassundergroundBlock.java",
           "src/main/resources/assets/darkstarrr/blockstates/dark_grassunderground.json",
-          "src/main/resources/assets/darkstarrr/models/item/dark_grassunderground.json"
+          "src/main/resources/assets/darkstarrr/models/item/dark_grassunderground.json",
+          "src/main/java/net/mcreator/darkstarrr/block/DarkGrassundergroundBlock.java",
+          "src/main/resources/assets/darkstarrr/models/block/dark_grassunderground.json"
         ]
       }
     },
@@ -80,10 +80,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/darkstarrr/models/item/dark_grass.json",
-          "src/main/resources/assets/darkstarrr/blockstates/dark_grass.json",
+          "src/main/java/net/mcreator/darkstarrr/block/DarkGrassBlock.java",
           "src/main/resources/assets/darkstarrr/models/block/dark_grass.json",
           "src/main/resources/data/darkstarrr/loot_table/blocks/dark_grass.json",
-          "src/main/java/net/mcreator/darkstarrr/block/DarkGrassBlock.java"
+          "src/main/resources/assets/darkstarrr/blockstates/dark_grass.json"
         ]
       }
     },
@@ -107,17 +107,17 @@
       "registry_name": "dark_dimension",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/models/block/dark_dimension_portal_ns.json",
-          "src/main/resources/data/darkstarrr/dimension/dark_dimension.json",
           "src/main/java/net/mcreator/darkstarrr/world/teleporter/DarkDimensionTeleporter.java",
-          "src/main/resources/data/darkstarrr/dimension_type/dark_dimension.json",
-          "src/main/resources/assets/darkstarrr/models/block/dark_dimension_portal_ew.json",
-          "src/main/java/net/mcreator/darkstarrr/world/dimension/DarkDimensionDimension.java",
-          "src/main/java/net/mcreator/darkstarrr/item/DarkDimensionItem.java",
-          "src/main/resources/assets/darkstarrr/blockstates/dark_dimension_portal.json",
           "src/main/java/net/mcreator/darkstarrr/world/teleporter/DarkDimensionPortalShape.java",
-          "src/main/java/net/mcreator/darkstarrr/block/DarkDimensionPortalBlock.java",
-          "src/main/resources/assets/darkstarrr/models/item/dark_dimension.json"
+          "src/main/resources/assets/darkstarrr/blockstates/dark_dimension_portal.json",
+          "src/main/java/net/mcreator/darkstarrr/world/dimension/DarkDimensionDimension.java",
+          "src/main/resources/data/darkstarrr/dimension/dark_dimension.json",
+          "src/main/resources/assets/darkstarrr/models/block/dark_dimension_portal_ew.json",
+          "src/main/resources/data/darkstarrr/dimension_type/dark_dimension.json",
+          "src/main/resources/assets/darkstarrr/models/item/dark_dimension.json",
+          "src/main/resources/assets/darkstarrr/models/block/dark_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/darkstarrr/item/DarkDimensionItem.java",
+          "src/main/java/net/mcreator/darkstarrr/block/DarkDimensionPortalBlock.java"
         ]
       }
     },
@@ -129,11 +129,11 @@
       "registry_name": "dark_oak_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/darkstarrr/models/block/dark_oak_leaves.json",
-          "src/main/resources/assets/darkstarrr/models/item/dark_oak_leaves.json",
-          "src/main/resources/assets/darkstarrr/blockstates/dark_oak_leaves.json",
           "src/main/java/net/mcreator/darkstarrr/block/DarkOakLeavesBlock.java",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_oak_leaves.json"
+          "src/main/resources/assets/darkstarrr/models/item/dark_oak_leaves.json",
+          "src/main/resources/assets/darkstarrr/models/block/dark_oak_leaves.json",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_oak_leaves.json",
+          "src/main/resources/assets/darkstarrr/blockstates/dark_oak_leaves.json"
         ]
       }
     },
@@ -145,11 +145,11 @@
       "registry_name": "darkstaroak",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/darkstarrr/block/DarkstaroakBlock.java",
-          "src/main/resources/assets/darkstarrr/blockstates/darkstaroak.json",
-          "src/main/resources/assets/darkstarrr/models/item/darkstaroak.json",
           "src/main/resources/assets/darkstarrr/models/block/darkstaroak.json",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/darkstaroak.json"
+          "src/main/java/net/mcreator/darkstarrr/block/DarkstaroakBlock.java",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/darkstaroak.json",
+          "src/main/resources/assets/darkstarrr/blockstates/darkstaroak.json",
+          "src/main/resources/assets/darkstarrr/models/item/darkstaroak.json"
         ]
       }
     },
@@ -161,10 +161,10 @@
       "registry_name": "dark_stalker",
       "metadata": {
         "files": [
-          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_stalker_biome_modifier.json",
-          "src/main/java/net/mcreator/darkstarrr/client/renderer/DarkStalkerRenderer.java",
           "src/main/java/net/mcreator/darkstarrr/entity/DarkStalkerEntity.java",
-          "src/main/resources/assets/darkstarrr/models/item/dark_stalker_spawn_egg.json"
+          "src/main/resources/assets/darkstarrr/models/item/dark_stalker_spawn_egg.json",
+          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_stalker_biome_modifier.json",
+          "src/main/java/net/mcreator/darkstarrr/client/renderer/DarkStalkerRenderer.java"
         ]
       }
     },
@@ -234,7 +234,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Guisuporte",
@@ -247,7 +248,8 @@
           "src/main/java/net/mcreator/darkstarrr/client/gui/GuisuporteScreen.java",
           "src/main/java/net/mcreator/darkstarrr/world/inventory/GuisuporteMenu.java"
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "SuporteDeItens",
@@ -257,14 +259,15 @@
       "registry_name": "suporte_de_itens",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/darkstarrr/block/SuporteDeItensBlock.java",
-          "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json",
-          "src/main/resources/assets/darkstarrr/blockstates/suporte_de_itens.json",
-          "src/main/java/net/mcreator/darkstarrr/block/entity/SuporteDeItensBlockEntity.java",
           "src/main/resources/assets/darkstarrr/models/block/suporte_de_itens.json",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json"
+          "src/main/java/net/mcreator/darkstarrr/block/SuporteDeItensBlock.java",
+          "src/main/resources/assets/darkstarrr/blockstates/suporte_de_itens.json",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json",
+          "src/main/java/net/mcreator/darkstarrr/block/entity/SuporteDeItensBlockEntity.java",
+          "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json"
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Renderitem",
@@ -276,8 +279,14 @@
         "files": [
           "src/main/java/net/mcreator/darkstarrr/procedures/RenderitemProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Ssss",
@@ -308,6 +317,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "DarkStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/block/DarkStoneBlock.java",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_stone.json",
+          "src/main/resources/assets/darkstarrr/blockstates/dark_stone.json",
+          "src/main/resources/assets/darkstarrr/models/item/dark_stone.json",
+          "src/main/resources/assets/darkstarrr/models/block/dark_stone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -334,6 +359,7 @@
       "~CUSTOM:DarkOre"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DarkStone",
       "~CUSTOM:DarkOre"
     ],
     "BLOCKS:minecraft:mineable/axe": [
@@ -345,7 +371,7 @@
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:DarkGrassunderground",
-      "~Blocks.BLACKSTONE",
+      "~CUSTOM:DarkStone",
       "~CUSTOM:DarkGrass",
       "~Blocks.MOSSY_COBBLESTONE"
     ]
@@ -364,6 +390,7 @@
       "item.darkstarrr.dark_dimension.description_0": "tens o que é necessário para esmagares a minha rata?",
       "block.darkstarrr.dark_oak_leaves": "Dark Oak Leaves",
       "item.darkstarrr.green_dimension.description_0": "para fumar um beck GIGANTESCOOO",
+      "block.darkstarrr.dark_stone": "Pedra Sombria",
       "block.darkstarrr.dark_grass": "Dark Grass",
       "block.darkstarrr.darkstaroak": "Darkstaroak",
       "biome.darkstarrr.dark_biome": "Dark Biome",

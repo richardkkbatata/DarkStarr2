@@ -28,6 +28,7 @@ public class DarkstarrrModItems {
 	public static final DeferredItem<Item> DARKSTAROAK = block(DarkstarrrModBlocks.DARKSTAROAK);
 	public static final DeferredItem<Item> DARK_STALKER_SPAWN_EGG = REGISTRY.register("dark_stalker_spawn_egg", () -> new DeferredSpawnEggItem(DarkstarrrModEntities.DARK_STALKER, -16777216, -3407872, new Item.Properties()));
 	public static final DeferredItem<Item> SUPORTE_DE_ITENS = block(DarkstarrrModBlocks.SUPORTE_DE_ITENS);
+	public static final DeferredItem<Item> DARK_STONE = block(DarkstarrrModBlocks.DARK_STONE);
 
 	// Start of user code block custom items
 	// End of user code block custom items
