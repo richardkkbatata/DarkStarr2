@@ -239,7 +239,7 @@
     {
       "name": "Guisuporte",
       "type": "gui",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "guisuporte",
       "metadata": {
@@ -253,7 +253,7 @@
     {
       "name": "SuporteDeItens",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "suporte_de_itens",
       "metadata": {
@@ -278,7 +278,12 @@
         "files": [
           "src/main/java/net/mcreator/darkstarrr/procedures/RenderitemProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/itemSupport"
     },
@@ -346,7 +351,7 @@
     {
       "name": "DarkStone",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dark_stone",
       "metadata": {
@@ -396,7 +401,7 @@
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:DarkGrassunderground",
-      "~CUSTOM:DarkStone",
+      "~Blocks.BLACKSTONE",
       "~CUSTOM:DarkGrass",
       "~Blocks.MOSSY_COBBLESTONE"
     ]
