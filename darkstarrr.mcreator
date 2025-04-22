@@ -234,7 +234,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Guisuporte",
@@ -247,7 +248,8 @@
           "src/main/java/net/mcreator/darkstarrr/client/gui/GuisuporteScreen.java",
           "src/main/java/net/mcreator/darkstarrr/world/inventory/GuisuporteMenu.java"
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "SuporteDeItens",
@@ -264,7 +266,8 @@
           "src/main/resources/assets/darkstarrr/models/block/suporte_de_itens.json",
           "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json"
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Renderitem",
@@ -277,7 +280,8 @@
           "src/main/java/net/mcreator/darkstarrr/procedures/RenderitemProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Ssss",
@@ -307,6 +311,37 @@
             "type": "world"
           }
         ]
+      }
+    },
+    {
+      "name": "DarkStalkerNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stalker_natural_entity_spawning_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/procedures/DarkStalkerNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic"
       }
     }
   ],

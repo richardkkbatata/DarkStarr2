@@ -138,7 +138,10 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 3,
+    "spawningCondition": {
+      "name": "DarkStalkerNaturalEntitySpawningCondition"
+    },
+    "spawningProbability": 1,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
