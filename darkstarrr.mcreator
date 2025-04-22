@@ -234,8 +234,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/itemSupport"
+      }
     },
     {
       "name": "Guisuporte",
@@ -248,8 +247,7 @@
           "src/main/java/net/mcreator/darkstarrr/client/gui/GuisuporteScreen.java",
           "src/main/java/net/mcreator/darkstarrr/world/inventory/GuisuporteMenu.java"
         ]
-      },
-      "path": "~/itemSupport"
+      }
     },
     {
       "name": "SuporteDeItens",
@@ -266,8 +264,7 @@
           "src/main/resources/assets/darkstarrr/models/block/suporte_de_itens.json",
           "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json"
         ]
-      },
-      "path": "~/itemSupport"
+      }
     },
     {
       "name": "Renderitem",
@@ -280,8 +277,7 @@
           "src/main/java/net/mcreator/darkstarrr/procedures/RenderitemProcedure.java"
         ],
         "dependencies": []
-      },
-      "path": "~/itemSupport"
+      }
     },
     {
       "name": "Ssss",
@@ -343,6 +339,22 @@
         ],
         "return_type": "logic"
       }
+    },
+    {
+      "name": "DarkStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/darkstarrr/block/DarkStoneBlock.java",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_stone.json",
+          "src/main/resources/assets/darkstarrr/models/item/dark_stone.json",
+          "src/main/resources/assets/darkstarrr/blockstates/dark_stone.json",
+          "src/main/resources/assets/darkstarrr/models/block/dark_stone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -369,6 +381,7 @@
       "~CUSTOM:DarkOre"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DarkStone",
       "~CUSTOM:DarkOre"
     ],
     "BLOCKS:minecraft:mineable/axe": [
@@ -399,6 +412,7 @@
       "item.darkstarrr.dark_dimension.description_0": "tens o que é necessário para esmagares a minha rata?",
       "block.darkstarrr.dark_oak_leaves": "Dark Oak Leaves",
       "item.darkstarrr.green_dimension.description_0": "para fumar um beck GIGANTESCOOO",
+      "block.darkstarrr.dark_stone": "Pedra Sombria",
       "block.darkstarrr.dark_grass": "Dark Grass",
       "block.darkstarrr.darkstaroak": "Darkstaroak",
       "biome.darkstarrr.dark_biome": "Dark Biome",
