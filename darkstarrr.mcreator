@@ -239,7 +239,7 @@
     {
       "name": "Guisuporte",
       "type": "gui",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "guisuporte",
       "metadata": {
@@ -252,7 +252,7 @@
     {
       "name": "SuporteDeItens",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "suporte_de_itens",
       "metadata": {
@@ -343,7 +343,7 @@
     {
       "name": "DarkStone",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dark_stone",
       "metadata": {
