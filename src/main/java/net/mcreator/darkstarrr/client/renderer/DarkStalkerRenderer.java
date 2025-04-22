@@ -1,6 +1,15 @@
 
 package net.mcreator.darkstarrr.client.renderer;
 
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.model.geom.ModelLayers;
+import net.minecraft.client.model.HumanoidModel;
+
+import net.mcreator.darkstarrr.entity.DarkStalkerEntity;
+
 public class DarkStalkerRenderer extends HumanoidMobRenderer<DarkStalkerEntity, HumanoidModel<DarkStalkerEntity>> {
 	public DarkStalkerRenderer(EntityRendererProvider.Context context) {
 		super(context, new HumanoidModel<DarkStalkerEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
