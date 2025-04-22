@@ -234,7 +234,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Guisuporte",
@@ -247,7 +248,8 @@
           "src/main/java/net/mcreator/darkstarrr/client/gui/GuisuporteScreen.java",
           "src/main/java/net/mcreator/darkstarrr/world/inventory/GuisuporteMenu.java"
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "SuporteDeItens",
@@ -257,14 +259,15 @@
       "registry_name": "suporte_de_itens",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/darkstarrr/block/SuporteDeItensBlock.java",
-          "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json",
-          "src/main/resources/assets/darkstarrr/blockstates/suporte_de_itens.json",
-          "src/main/java/net/mcreator/darkstarrr/block/entity/SuporteDeItensBlockEntity.java",
           "src/main/resources/assets/darkstarrr/models/block/suporte_de_itens.json",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json"
+          "src/main/java/net/mcreator/darkstarrr/block/SuporteDeItensBlock.java",
+          "src/main/resources/assets/darkstarrr/blockstates/suporte_de_itens.json",
+          "src/main/resources/data/darkstarrr/loot_table/blocks/suporte_de_itens.json",
+          "src/main/java/net/mcreator/darkstarrr/block/entity/SuporteDeItensBlockEntity.java",
+          "src/main/resources/assets/darkstarrr/models/item/suporte_de_itens.json"
         ]
-      }
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Renderitem",
@@ -276,8 +279,14 @@
         "files": [
           "src/main/java/net/mcreator/darkstarrr/procedures/RenderitemProcedure.java"
         ],
-        "dependencies": []
-      }
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/itemSupport"
     },
     {
       "name": "Ssss",
