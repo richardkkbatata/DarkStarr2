@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:DarkStone"
+      "value": "Blocks.BLACKSTONE"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
