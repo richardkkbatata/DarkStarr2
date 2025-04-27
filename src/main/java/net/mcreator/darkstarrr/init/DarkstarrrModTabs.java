@@ -24,6 +24,9 @@ public class DarkstarrrModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DarkstarrrModItems.GREEN_DIMENSION.get());
 			tabData.accept(DarkstarrrModItems.DARK_DIMENSION.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(DarkstarrrModBlocks.DARK_ORE.get().asItem());
+			tabData.accept(DarkstarrrModBlocks.DARK_STONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DarkstarrrModBlocks.DARK_GRASSUNDERGROUND.get().asItem());
 			tabData.accept(DarkstarrrModBlocks.DARK_GRASS.get().asItem());
@@ -32,8 +35,6 @@ public class DarkstarrrModTabs {
 			tabData.accept(DarkstarrrModItems.DARK_STALKER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(DarkstarrrModBlocks.SUPORTE_DE_ITENS.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(DarkstarrrModBlocks.DARK_STONE.get().asItem());
 		}
 	}
 }
