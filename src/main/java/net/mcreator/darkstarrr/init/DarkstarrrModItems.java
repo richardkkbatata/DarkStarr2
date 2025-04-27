@@ -20,7 +20,6 @@ import net.mcreator.darkstarrr.DarkstarrrMod;
 public class DarkstarrrModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(DarkstarrrMod.MODID);
 	public static final DeferredItem<Item> GREEN_DIMENSION = REGISTRY.register("green_dimension", GreenDimensionItem::new);
-	public static final DeferredItem<Item> DARK_ORE = block(DarkstarrrModBlocks.DARK_ORE);
 	public static final DeferredItem<Item> DARK_GRASSUNDERGROUND = block(DarkstarrrModBlocks.DARK_GRASSUNDERGROUND);
 	public static final DeferredItem<Item> DARK_GRASS = block(DarkstarrrModBlocks.DARK_GRASS);
 	public static final DeferredItem<Item> DARK_DIMENSION = REGISTRY.register("dark_dimension", DarkDimensionItem::new);

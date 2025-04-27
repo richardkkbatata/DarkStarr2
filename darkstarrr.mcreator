@@ -37,25 +37,6 @@
       }
     },
     {
-      "name": "DarkOre",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/darkstarrr/worldgen/configured_feature/dark_ore.json",
-          "src/main/resources/assets/darkstarrr/models/item/dark_ore.json",
-          "src/main/resources/data/darkstarrr/neoforge/biome_modifier/dark_ore_biome_modifier.json",
-          "src/main/resources/data/darkstarrr/worldgen/placed_feature/dark_ore.json",
-          "src/main/resources/assets/darkstarrr/models/block/dark_ore.json",
-          "src/main/resources/assets/darkstarrr/blockstates/dark_ore.json",
-          "src/main/java/net/mcreator/darkstarrr/block/DarkOreBlock.java",
-          "src/main/resources/data/darkstarrr/loot_table/blocks/dark_ore.json"
-        ]
-      }
-    },
-    {
       "name": "DarkGrassunderground",
       "type": "block",
       "compiles": true,
@@ -386,12 +367,8 @@
     }
   ],
   "tag_elements": {
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:DarkOre"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:DarkStone",
-      "~CUSTOM:DarkOre"
+      "~CUSTOM:DarkStone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:SuporteDeItens",
@@ -401,6 +378,7 @@
       "~CUSTOM:DarkGrass"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.BLACKSTONE",
       "~CUSTOM:DarkGrassunderground",
       "~CUSTOM:DarkStone",
       "~CUSTOM:DarkGrass",
@@ -426,7 +404,6 @@
       "block.darkstarrr.darkstaroak": "Darkstaroak",
       "biome.darkstarrr.dark_biome": "Dark Biome",
       "item.darkstarrr.green_dimension": "acendedor de beck",
-      "block.darkstarrr.dark_ore": "Minério Sombrio",
       "item.darkstarrr.dark_stalker_spawn_egg": "Dark Stalker Spawn Egg",
       "painting.darkstarrr.dark_vegeta_painting.title": "Dark Vegeta Painting"
     }

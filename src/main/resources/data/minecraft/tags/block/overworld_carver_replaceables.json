@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:blackstone",
     "darkstarrr:dark_grassunderground",
     "darkstarrr:dark_stone",
     "darkstarrr:dark_grass",
