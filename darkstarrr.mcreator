@@ -367,8 +367,12 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:DarkOre"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:DarkStone"
+      "~CUSTOM:DarkStone",
+      "~CUSTOM:DarkOre"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:SuporteDeItens",
@@ -378,7 +382,6 @@
       "~CUSTOM:DarkGrass"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.BLACKSTONE",
       "~CUSTOM:DarkGrassunderground",
       "~CUSTOM:DarkStone",
       "~CUSTOM:DarkGrass",
@@ -404,6 +407,7 @@
       "block.darkstarrr.darkstaroak": "Darkstaroak",
       "biome.darkstarrr.dark_biome": "Dark Biome",
       "item.darkstarrr.green_dimension": "acendedor de beck",
+      "block.darkstarrr.dark_ore": "Minério Sombrio",
       "item.darkstarrr.dark_stalker_spawn_egg": "Dark Stalker Spawn Egg",
       "painting.darkstarrr.dark_vegeta_painting.title": "Dark Vegeta Painting"
     }
